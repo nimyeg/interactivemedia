@@ -1,0 +1,86 @@
+
+
+
+
+/* Fireplace */
+.iframe-container {
+  overflow:hidden;
+  padding-top:80%;
+  position:relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Jazz Record */
+.iframe-container2 {
+  overflow:hidden;
+  padding-top:80%;
+  position:relative;
+}
+
+.iframe-container2 iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Rain */
+.iframe-container3 {
+  overflow:hidden;
+  padding-top:80%;
+  position:relative;
+}
+
+.iframe-container3 iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Candle */
+.iframe-container4 {
+  overflow:hidden;
+  padding-top:80%;
+  position:relative;
+}
+
+.iframe-container4 iframe {
+  border: 0;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Candle */
+.iframe-container5 {
+  overflow:hidden;
+  padding-top:80%;
+  position:relative;
+}
+
+.iframe-container5 iframe {
+  border: 0;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+body{
+  background-color: darkred;
+}
