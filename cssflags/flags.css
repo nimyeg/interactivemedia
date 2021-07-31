@@ -2,6 +2,48 @@
 	display: grid;
 }
 
+
+.Denmark {
+	position: absolute;
+	top: 103%;
+	width: 765px;
+	height: 630px;
+	grid-template-columns: 300px 90px 405px;
+	grid-template-rows: 270px 90px 270px;
+}
+
+.grid-item-7 {
+	background-color: #c60c30;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.grid-item-8 {
+	background-color: #c60c30;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.grid-item-9 {
+	background-color: #c60c30;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+.grid-item-10 {
+	background-color: #c60c30;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
 .Sweden {
 	position: absolute;
 	top: 1%;
@@ -59,46 +101,6 @@
 	grid-row-end: 3;
 }
 
-.Denmark {
-	position: absolute;
-	top: 103%;
-	width: 765px;
-	height: 630px;
-	grid-template-columns: 300px 90px 405px;
-	grid-template-rows: 270px 90px 270px;
-}
-
-.grid-item-7 {
-	background-color: #c60c30;
-	grid-column-start: 1;
-	grid-column-end: 1;
-	grid-row-start: 1;
-	grid-row-end: 1;
-}
-
-.grid-item-8 {
-	background-color: #c60c30;
-	grid-column-start: 3;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 1;
-}
-
-.grid-item-9 {
-	background-color: #c60c30;
-	grid-column-start: 1;
-	grid-column-end: 1;
-	grid-row-start: 3;
-	grid-row-end: 3;
-}
-
-.grid-item-10 {
-	background-color: #c60c30;
-	grid-column-start: 3;
-	grid-column-end: 3;
-	grid-row-start: 3;
-	grid-row-end: 3;
-}
 
 .Finland {
 	position: absolute;
