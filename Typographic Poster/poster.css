@@ -1,0 +1,72 @@
+@font-face {
+	src: url(fonts/FavoritPro-Medium.otf);
+	font-family: favorit;
+}
+
+@font-face {
+	src: url(fonts/FavoritPro-Bold.otf);
+	font-family: favoritbold;
+}
+
+@font-face {
+	src: url(fonts/Ogg-Italic.otf);
+	font-family: ogg;
+}
+
+/* https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp Used to add custom fonts */ 
+h1 {
+	font-family: favorit;
+	background-size: 100%, 100%;
+	position: relative;
+	color: rgb(255, 255, 255);
+	margin-left: 0px;
+}
+
+#container {
+	font-family: favorit;
+	width: 80%;
+	margin: auto;
+}
+
+
+h2 {
+	background-image: radial-gradient(black, red);
+
+	color: white;
+}
+
+body {
+	background-image: radial-gradient( black, white,black, black, grey, black);
+}
+
+
+
+
+/* main text */
+#containerbox {
+	background-color: rgb(255, 255, 255);
+	width: 96%;
+	padding: 2%;
+	font-family: favoritbold;
+	font-size: 48pt;
+}
+
+/* bottom of page */
+#containerbox2 {
+	float: left;
+	background-color: rgb(255, 255, 255);
+	width: 96%;
+	padding: 2%;
+	font-family: favorit;
+	font-size: 18pt;
+}
+
+/* date */
+#containerbox3 {
+	background-color: rgb(255, 255, 255);
+	width: 96%;
+	padding: 2%;
+	font-family: ogg;
+	font-size: 32pt;
+}
+
