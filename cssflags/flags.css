@@ -3,6 +3,7 @@
 }
 
 
+/* Denmark Flag */
 .Denmark {
 	position: absolute;
 	top: 103%;
@@ -44,6 +45,7 @@
 	grid-row-end: 3;
 }
 
+/* Sweden Flag */
 .Sweden {
 	position: absolute;
 	top: 1%;
@@ -101,7 +103,7 @@
 	grid-row-end: 3;
 }
 
-
+/* Finland Flag */
 .Finland {
 	position: absolute;
 	top: 102%;
@@ -127,6 +129,7 @@
 	grid-row-end: span 3;
 }
 
+/* Iceland Flag */
 .Iceland {
 	position: absolute;
 	top: 102%;
