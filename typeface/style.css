@@ -1,0 +1,625 @@
+
+.letter {
+    width:260px; 
+    height:300px; 
+    display:inline-block; 
+    border:1px solid #000; 
+    position:relative; 
+    
+}
+        	
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat;
+}
+
+.letter-a-line {
+	height: 150px;
+    width: 70px;
+    border-radius: 50px 50px 0px 0;
+    background-color: green;
+    transform:  rotate(180deg);
+    bottom: 50px;
+    right: 50px;
+}
+
+.letter-a-circle{
+    width: 50%;
+    height: 30%;
+    bottom: 110px;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+    background-color: blue;
+
+}
+
+.letter-b-circle1{
+    width: 50%;
+    height: 30%;
+    bottom: 20px;
+    left: 70px;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+    background-color: blue;
+
+}
+
+.letter-b-circle{
+    width: 50%;
+    height: 30%;
+    bottom: 110px;
+    left:70px;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+    background-color: blue;
+
+}
+
+.letter-b-line{
+    height: 170px;
+    width: 40px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: green;
+    transform:  rotate(180deg);
+    bottom: 25px;
+    right: 100px;
+}
+
+.letter-c-crescent{
+        height: 150px;
+        width: 70px;
+        border-radius: 125px 0px 0px 125px;
+        background-color: green;
+        left: 70px;
+        bottom: 10%;
+    }
+
+    .letter-d-line{
+        height: 170px;
+        width: 40px;
+        border-radius: 50px 50px 50px 50px;
+        background-color: green;
+        opacity: 80%;
+        transform:  rotate(180deg);
+        bottom: 50px;
+        right: 80px;
+    }
+    
+    .letter-d-crescent{
+            height: 150px;
+            width: 70px;
+            border-radius: 125px 0px 0px 125px;
+            background-color: blue;
+            left: 10px;
+            bottom: 10%;
+        }
+
+        .letter-e-line{
+            height: 170px;
+            width: 40px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom: 50px;
+            right: 140px;
+        }
+
+        .letter-e-line2{
+            height: 40px;
+            width:120px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom: 50px;
+            right: 60px;
+        }
+
+
+        .letter-e-line3{
+            height: 40px;
+            width:120px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom: 120px;
+            right: 60px;
+        }
+
+
+        .letter-e-line4{
+            height: 40px;
+            width:120px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom: 180px;
+            right: 60px;
+        }
+
+        .letter-f-line{
+            height: 170px;
+            width: 40px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom: 50px;
+            right: 140px;
+        }
+
+        .letter-f-line2{
+            height: 40px;
+            width:120px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom:100px;
+            right: 60px;
+        }
+
+
+        .letter-f-line3{
+            height: 40px;
+            width:120px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom: 180px;
+            right: 60px;
+        }
+
+        .letter-g-circle{
+            width: 50%;
+            height: 30%;
+            bottom: 80px;
+            left: 0px;
+            border-radius: 50%;
+            background-color: blue;
+        
+        }
+
+        .letter-g-line{
+            height: 90px;
+            width: 40px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            opacity: 80%;
+            transform:  rotate(90deg);
+            bottom: 80px;
+            right: 100px;
+        }
+
+        .letter-h-circle{
+            width: 50%;
+            height: 20%;
+            bottom: 40px;
+            left: 70px;
+            border-radius: 50%;
+            background-color: blue;
+        
+        }
+
+        .letter-h-line{
+            height: 150px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom: 40px;
+            right: 120px;
+        }
+
+
+        .letter-i-circle{
+            width: 30%;
+            height: 20%;
+            bottom: 170px;
+            left: 50px;
+            border-radius: 50%;
+            background-color: blue;
+        
+        }
+
+        .letter-i-line{
+            height: 150px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom: 10px;
+            right: 90px;
+        }
+
+        .letter-j-line{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(180deg);
+            bottom: 70px;
+            right: 89px;
+        }
+        .letter-j-line2{
+            height: 80px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(90deg);
+            bottom: 30px;
+            left: 60px;
+        }
+
+        .letter-k-line{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(45deg);
+            bottom: 80px;
+            right: 70px;
+        }
+        .letter-k-line2{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(120deg);
+            bottom: 20px;
+
+            right: 60px;
+        }
+
+        .letter-l-line2{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(180deg);
+            bottom: 70px;
+            right: 140px;
+        }
+        .letter-l-line{
+            height: 80px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(90deg);
+            bottom: 30px;
+            left: 60px;
+        }
+
+        .letter-m-line1{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(180deg);
+            bottom: 70px;
+            right: 140px;
+        }
+
+        .letter-m-line2{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(180deg);
+            bottom: 70px;
+            right: 100px;
+        }
+
+        .letter-m-line3{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(180deg);
+            bottom: 70px;
+            right: 60px;
+        }
+        
+
+        .letter-n-line{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(180deg);
+            bottom: 70px;
+            right: 100px;
+        }
+
+        .letter-n-line2{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(180deg);
+            bottom: 70px;
+            right: 60px;
+        }
+
+        .letter-o-circle{
+            width: 50%;
+            height: 30%;
+            bottom: 90px;
+            left: 50px;
+            border-radius: 50%;
+            background-color: blue;
+        
+        }
+
+        .letter-p-circle{
+            width: 50%;
+            height: 20%;
+            bottom: 130px;
+            left: 70px;
+            border-radius: 50%;
+            background-color: blue;
+        
+        }
+
+        .letter-p-line{
+            height: 150px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom: 40px;
+            right: 120px;
+        }
+
+        .letter-q-circle{
+            width: 50%;
+            height: 30%;
+            bottom: 110px;
+            left: 70px;
+            transform:  rotate(45deg);
+
+            border-radius: 50%;
+            background-color: blue;
+        
+        }
+
+        .letter-q-line{
+            height: 70px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            opacity: 80%;
+            transform:  rotate(160deg);
+            bottom: 40px;
+            right: 30px;
+        }
+
+        .letter-r-circle{
+            width: 30%;
+            height: 30%;
+            bottom: 10px;
+            left: 70px;
+            transform:  rotate(120deg);
+
+            border-radius: 50%;
+            background-color: blue;
+        
+        }
+
+        .letter-r-line{
+            height: 150px;
+            width: 40px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            opacity: 80%;
+            transform:  rotate(180deg);
+            bottom: 40px;
+            left: 30px
+        }
+
+        .letter-r-circle2{
+            width: 50%;
+            height: 30%;
+            bottom: 110px;
+            left: 70px;
+            transform:  rotate(90deg);
+
+            border-radius: 50%;
+            background-color: blue;
+        
+        }
+
+        .letter-s-line1{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(90deg);
+            bottom: 30px;
+            right: 120px;
+        }
+
+        .letter-s-line2{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(90deg);
+            bottom: 70px;
+            right: 100px;
+        }
+
+        .letter-s-line3{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(90deg);
+            bottom: 110px;
+            right: 60px;
+        }
+
+        .letter-t-line1{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(180deg);
+            bottom: 70px;
+            right: 89px;
+        }
+        .letter-t-line2{
+            height: 100px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(90deg);
+            top: 50px;
+            left: 80px;
+        }
+
+        .letter-u-crescent{
+            height: 130px;
+            width: 70px;
+            border-radius: 125px 0px 0px 125px;
+            background-color: green;
+
+            transform:  rotate(270deg);
+
+            left: 70px;
+            bottom: 10%;
+        }
+
+        .letter-v-line1{
+            height: 100px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(140deg);
+            bottom: 50px;
+            right: 120px;
+        }
+        .letter-v-line2{
+            height: 100px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(45deg);
+            bottom: 50px;
+            left: 120px;
+        }
+
+        .letter-w-line1{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(160deg);
+            bottom: 70px;
+            right: 140px;
+        }
+
+        .letter-w-line2{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(180deg);
+            bottom: 70px;
+            right: 100px;
+        }
+
+        .letter-w-line3{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(200deg);
+            bottom: 70px;
+            right: 60px;
+        }
+
+        .letter-x-line{
+            height: 160px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(140deg);
+            bottom: 70px;
+            right: 100px;
+        }
+
+        .letter-x-line2{
+            height: 170px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(240deg);
+            bottom: 70px;
+            right: 80px;
+        }
+
+        .letter-y-line{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(180deg);
+            bottom: 70px;
+            right: 100px;
+        }
+
+        .letter-y-line2{
+            height: 160px;
+            width: 20px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(220deg);
+            top: 70px;
+            right: 70px;
+        }
+
+        .letter-z-line1{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(90deg);
+            bottom: 30px;
+            right: 120px;
+        }
+
+        .letter-z-line2{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: blue;
+            transform:  rotate(60deg);
+            bottom: 70px;
+            right: 100px;
+        }
+
+        .letter-z-line3{
+            height: 130px;
+            width: 30px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: green;
+            transform:  rotate(90deg);
+            bottom: 110px;
+            right: 60px;
+        }
+        
+
+.letter div{
+	position:  absolute;
+}
+
+
